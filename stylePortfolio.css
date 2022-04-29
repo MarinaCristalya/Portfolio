@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: whitesmoke;
+    font-family: "merriweather", sans-serif;
 }
 
 header {
@@ -42,14 +43,6 @@ img {
     height: 25px;
 }
 
-#japon {
-height: 250px;
-}
-
-#piano {
-    height: 250px;
-}
-
 #competences {
     display: flex;
     flex-direction: row;
@@ -63,8 +56,7 @@ height: 250px;
 }
 
 table {
-    border-collapse: collapse;
-    border-radius: 50px; 
+    border-collapse: collapse;  
 }
 
 td {
@@ -80,6 +72,10 @@ td {
 
 .experiences {
     margin: auto;
+    border-right: 2px solid black;  
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    padding-right: 5px;
 }
 
 #formations {
@@ -115,6 +111,30 @@ td {
     margin: auto;
 }
 
+figure {
+    display: table;
+}
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+}
+
+#japon {
+    height: 250px;
+    border-radius: 25px;
+}
+    
+#piano {
+     height: 250px;
+    border-radius: 25px;
+}
+
+#musique {
+    height: 250px;
+    border-radius: 25px;
+}
+
+
 footer {
     background-color: lavender;
 }
@@ -133,5 +153,3 @@ footer h1 {
 .contact {
     margin: auto;
 }
-
-/* Comment je pourrais faire pour rajouter de l'espace entre mes blocs ? Entre la fin du bloc Expériences et le début du bloc Formations par exemple. */
