@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: lavender;
+}
+
+header h1 {
+    font-size: larger;
+    color: darkolivegreen;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    }
+
+.elementsNavigation {
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: ;
+    color: darkolivegreen;
+}
+
+h3 {
+    color: darkolivegreen;
+}
+
+img {
+    height: 25px;
+}
+
+#competences {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    width: 100%;
+}
+
+.competences {
+    margin: auto;
+    display: inline-block;
+    vertical-align: top; /*Firefox me dit que ça ne marche pas, mais je ne sais pas comment aligner mon texte en hauteur. */  
+}
+
+.tableau {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    width: 100%; 
+    /*je voudrais que sous "programmation il y ait un tableau avec une entrée Web et une autre Web mobile ; idem pour Web et réf' Web. Mais je n'arrive pas à faire. */
+}
+
+#experiences {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 100%;
+  }
+
+.experiences {
+    margin: auto;
+}
+
+#formations {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around  ;
+    width: 100%;
+}
+
+.formations {
+    margin: auto;
+}
+
+#savoirEtre {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    width: 100%;
+}
+
+.savoirEtre {
+    margin: auto;
+}
+
+#aPropos {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    width: 100%;
+}
+
+.aPropos {
+    margin: auto;
+}
+
+footer {
+    background-color: lavender;
+}
+footer h1 {
+    font-size:large;
+    color: darkolivegreen;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    width: 100%;
+}
+
+.contact {
+    margin: auto;
+}
+
+/* Comment je pourrais faire pour rajouter de l'espace entre mes blocs ? Entre la fin du bloc Expériences et le début du bloc Formations par exemple. */
