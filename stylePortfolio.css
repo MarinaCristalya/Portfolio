@@ -29,8 +29,9 @@ nav {
 
 h2 {
     text-align: center;
-    text-shadow: ;
+    text-shadow: 100px darkolivegreen; /* fonctionne pas */
     color: darkolivegreen;
+    margin-top: 50px;
 }
 
 h3 {
@@ -41,6 +42,14 @@ img {
     height: 25px;
 }
 
+#japon {
+height: 250px;
+}
+
+#piano {
+    height: 250px;
+}
+
 #competences {
     display: flex;
     flex-direction: row;
@@ -49,17 +58,17 @@ img {
 }
 
 .competences {
-    margin: auto;
+    margin: 0 auto;
     display: inline-block;
-    vertical-align: top; /*Firefox me dit que ça ne marche pas, mais je ne sais pas comment aligner mon texte en hauteur. */  
 }
 
-.tableau {
-    display: flex;
-    flex-direction: row;
-    align-content: space-around;
-    width: 100%; 
-    /*je voudrais que sous "programmation il y ait un tableau avec une entrée Web et une autre Web mobile ; idem pour Web et réf' Web. Mais je n'arrive pas à faire. */
+table {
+    border-collapse: collapse;
+    border-radius: 50px; 
+}
+
+td {
+    border: 1px dotted black;
 }
 
 #experiences {
