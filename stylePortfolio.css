@@ -26,11 +26,15 @@ nav {
 
 .elementsNavigation {
     margin: auto;
+    /*enlever ligne sous lien */
+}
+a:hover {
+    font-weight: bold;
 }
 
 h2 {
     text-align: center;
-    text-shadow: 100px darkolivegreen; /* fonctionne pas */
+    text-shadow: 2px 2px 1px rgb(158, 233, 44);
     color: darkolivegreen;
     margin-top: 50px;
 }
@@ -43,8 +47,13 @@ img {
     height: 25px;
 }
 
+ul {
+    list-style: none;
+}
+
 #competences {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-content: space-around;
     width: 100%;
@@ -66,6 +75,7 @@ td {
 #experiences {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-content: space-between;
     width: 100%;
   }
