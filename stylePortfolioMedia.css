@@ -1,0 +1,22 @@
+#formations {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto 5px;
+}
+
+#japon {
+    height: 150px;
+    border-radius: 25px;
+}
+    
+#piano {
+    height: 150px;
+    border-radius: 25px;
+}
+
+#musique {
+    height: 150px;
+    border-radius: 25px;
+}
+

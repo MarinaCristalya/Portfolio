@@ -19,15 +19,33 @@ header h1 {
 nav {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
-    }
+    
+    
+ }
+
+#menu {
+    display: contents;
+}
 
 .elementsNavigation {
     margin: auto;
-    /*enlever ligne sous lien */
+    padding: 2px;
+    border: solid 2px purple;
 }
+
+.elementsNavigation:hover {
+    color: blue;
+    background: rgb(212, 212, 232)
+}
+
+a {
+    text-decoration: none;
+}
+
 a:hover {
     font-weight: bold;
 }
@@ -68,8 +86,12 @@ table {
     border-collapse: collapse;  
 }
 
-td {
+td, th {
     border: 1px dotted black;
+    padding: 2px;
+}
+th {
+    font-weight: normal;
 }
 
 #experiences {
@@ -91,6 +113,7 @@ td {
 #formations {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-content: space-around  ;
     width: 100%;
 }
@@ -102,17 +125,19 @@ td {
 #savoirEtre {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-content: space-around;
     width: 100%;
 }
 
 .savoirEtre {
-    margin: auto;
+    margin: 0 auto;
 }
 
 #aPropos {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-content: space-around;
     width: 100%;
 }
@@ -156,6 +181,7 @@ footer h1 {
 #contact {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-content: stretch;
     width: 100%;
 }
