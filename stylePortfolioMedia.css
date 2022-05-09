@@ -1,8 +1,24 @@
+.elementsNavigation {
+       border: none;
+}
+
+td, th {
+    border:none;
+}
+
 #formations {
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin: auto 5px;
+    margin: auto;
+}
+
+div .formations {
+    width: 50%;
+}
+
+div .savoirEtre {
+    width: 51%;
 }
 
 #japon {

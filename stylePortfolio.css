@@ -11,7 +11,7 @@ header {
     background-color: lavender;
 }
 
-header h1 {
+header h3 {
     font-size: larger;
     color: darkolivegreen;
 }
@@ -22,9 +22,7 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    
-    
+    width: 100%; 
  }
 
 #menu {
@@ -48,6 +46,14 @@ a {
 
 a:hover {
     font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: darkolivegreen;
+    font-size: 2em;
+    margin: 75px;
+    text-shadow: 4px 2px 3px darkolivegreen;
 }
 
 h2 {
@@ -173,7 +179,7 @@ figcaption {
 footer {
     background-color: lavender;
 }
-footer h1 {
+footer h3 {
     font-size:large;
     color: darkolivegreen;
 }
@@ -187,5 +193,12 @@ footer h1 {
 }
 
 .contact {
+    padding: 0.5px;
     margin: auto;
+}
+
+textarea {
+overflow-y: scroll;
+resize: none;
+height: 75px;
 }
